@@ -1,0 +1,20 @@
+---
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.5
+  DisplayCopNames: true
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+    - 'spec/**/*_example.rb'
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false

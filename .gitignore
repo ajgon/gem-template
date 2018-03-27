@@ -1,0 +1,8 @@
+*.gem
+*~
+.bundle
+.rvmrc
+coverage/*
+doc/*
+log/*
+spec/examples.txt
